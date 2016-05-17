@@ -249,26 +249,26 @@ function MyCtrl(DTOptionsBuilder) {
     var vm = this;
     vm.dtOptions = DTOptionsBuilder.fromSource('data.json')
         .withLanguage({
-            "sEmptyTable":     "No data available in table",
-            "sInfo":           "Showing _START_ to _END_ of _TOTAL_ entries",
-            "sInfoEmpty":      "Showing 0 to 0 of 0 entries",
-            "sInfoFiltered":   "(filtered from _MAX_ total entries)",
+            "sEmptyTable":     "No hay datos disponibles en la tabla",
+            "sInfo":           "Mostrando _START_ a _END_ de _TOTAL_ registros",
+            "sInfoEmpty":      "Mostrando 0 a 0 de 0 registros",
+            "sInfoFiltered":   "(filtrado de _MAX_ total registros)",
             "sInfoPostFix":    "",
             "sInfoThousands":  ",",
-            "sLengthMenu":     "Show _MENU_ entries",
-            "sLoadingRecords": "Loading...",
-            "sProcessing":     "Processing...",
-            "sSearch":         "Search:",
-            "sZeroRecords":    "No matching records found",
+            "sLengthMenu":     "Mostrar _MENU_ registros",
+            "sLoadingRecords": "Cargando...",
+            "sProcessing":     "Procesando...",
+            "sSearch":         "Buscar:",
+            "sZeroRecords":    "No se encontraron registros que coincidar con la busqueda",
             "oPaginate": {
-                "sFirst":    "First",
-                "sLast":     "Last",
-                "sNext":     "Next",
-                "sPrevious": "Previous"
+                "sFirst":    "Primero",
+                "sLast":     "Último",
+                "sNext":     "Siguiente",
+                "sPrevious": "Anterior"
             },
             "oAria": {
-                "sSortAscending":  ": activate to sort column ascending",
-                "sSortDescending": ": activate to sort column descending"
+                "sSortAscending":  ": activar para ordenar las columnas ascendente",
+                "sSortDescending": ": activar para ordenar las columnas descendente"
             }
         });
 }
